@@ -1,0 +1,50 @@
+﻿<Window x:Class="Vlaggen_van_de_wereld_1._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vlaggen_van_de_wereld_1._0"
+        mc:Ignorable="d"
+        Title="Vlaggen van de wereld" MinWidth="1375" MinHeight="800" Margin="0" ScrollViewer.CanContentScroll="True" WindowStartupLocation="CenterScreen">
+    <ScrollViewer x:Name="MyScrollViewer" Margin="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Padding="0" MinWidth="1050" MinHeight="550" CanContentScroll="True">
+        <Grid x:Name="MyGrid" MinWidth="1250" MinHeight="550" Margin="0" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="textBlock_title" HorizontalAlignment="Left" Margin="125,100,0,0" TextWrapping="Wrap" Text="Vlaggen van de wereld" VerticalAlignment="Top" RenderTransformOrigin="0.505,1.25" Height="50" FontWeight="Bold" FontSize="30"/>
+            <ComboBox x:Name="comboBox_selectNations" HorizontalAlignment="Left" Margin="125,210,0,0" VerticalAlignment="Top" Width="200" SelectionChanged="ComboBox_selectNations_SelectionChanged">
+                <ComboBoxItem Name="Africa" Content="Afrika"/>
+                <ComboBoxItem Name="Asia" Content="Azië"/>
+                <ComboBoxItem Name="Europe" Content="Europa"/>
+                <ComboBoxItem Name="NorthAmerica" Content="Noord-Amerika en de Caraïben"/>
+                <ComboBoxItem Name="Oceania" Content="Oceanië"/>
+                <ComboBoxItem Name="SouthAmerica" Content="Zuid-Amerika"/>
+                <ComboBoxItem Name="World" Content="Alle landen van de wereld"/>
+            </ComboBox>
+            <TextBlock x:Name="textBlock_selectNations" HorizontalAlignment="Left" Margin="125,179,0,0" TextWrapping="Wrap" Text="Kies van welke landen je de nationale vlag wilt zien" VerticalAlignment="Top" RenderTransformOrigin="-0.303,0" Height="22" FontSize="16" Width="375"/>
+            <TextBlock x:Name="textBlock_toQuiz" HorizontalAlignment="Left" Margin="535,144,0,0" TextWrapping="Wrap" Text="Of speel de " VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" FontSize="24" Width="175"/>
+            <TextBlock x:Name="textBlock_quiz" HorizontalAlignment="Left" Margin="562,170,0,0" TextWrapping="Wrap" Text="VLAGGENQUIZ" VerticalAlignment="Top" FontFamily="Comic Sans MS" RenderTransformOrigin="1.304,0.424" FontWeight="Bold" FontSize="30" Foreground="Red" Width="250" TextDecorations="Underline" MouseDown="TextBlock_quiz_MouseDown" Cursor="Hand" MouseEnter="TextBlock_quiz_MouseEnter" MouseLeave="TextBlock_quiz_MouseLeave"/>
+            <TextBlock x:Name="textBlock_selectedNationGroup" HorizontalAlignment="Left" Margin="125,274,0,0" TextWrapping="Wrap" Text="Bekende vlaggen" VerticalAlignment="Top" FontSize="24" FontFamily="Segoe WP Semibold"/>
+            <TextBlock x:Name="textBlock_quizQuestion" HorizontalAlignment="Left" Margin="550,340,0,0" TextWrapping="Wrap" Text="Van welk land is dit de vlag?" VerticalAlignment="Top" RenderTransformOrigin="-0.202,0.625" FontSize="24" FontFamily="Segoe UI Semibold" Height="32" Visibility="Hidden"/>
+            <TextBlock x:Name="textBlock_quizQuestionCounter" HorizontalAlignment="Left" Margin="975,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Hidden" FontWeight="Bold" FontSize="18" Foreground="SlateGray" FontFamily="Arial"/>
+            <TextBlock x:Name="textBlock_numOfQuestionsCorrect" HorizontalAlignment="Left" Margin="975,397,0,0" TextWrapping="Wrap" Text="0  Goed" VerticalAlignment="Top" Width="120" Background="ForestGreen" Visibility="Hidden" Foreground="White" FontSize="18" FontWeight="Bold" Padding="5" TextAlignment="Center" FontStretch="SemiCondensed"/>
+            <TextBlock x:Name="textBlock_numOfQuestionsWrong" Margin="1120,397,0,0" TextWrapping="Wrap" Text="0  Fout" Width="120" Background="Crimson" Visibility="Hidden" Foreground="White" FontSize="18" FontWeight="Bold" Padding="5" HorizontalAlignment="Left" VerticalAlignment="Top" TextAlignment="Center" FontStretch="SemiCondensed"/>
+            <TextBlock x:Name="textBlock_quizAnswer4" HorizontalAlignment="Left" Margin="590,538,0,0" TextWrapping="Wrap" Text="quizAnswer4" VerticalAlignment="Top" RenderTransformOrigin="0.889,3.438" Visibility="Hidden" FontSize="24" FontFamily="Segoe UI Semibold" MouseDown="TextBlock_quizAnswer4_MouseDown" TextDecorations="{x:Null}" Foreground="Red" MouseEnter="TextBlock_quizAnswer4_MouseEnter" MouseLeave="TextBlock_quizAnswer4_MouseLeave"/>
+            <TextBlock x:Name="textBlock_quizAnswer3" HorizontalAlignment="Left" Margin="590,491,0,0" TextWrapping="Wrap" Text="quizAnswer3" VerticalAlignment="Top" RenderTransformOrigin="0.889,3.438" Visibility="Hidden" FontSize="24" FontFamily="Segoe UI Semibold"  MouseDown="TextBlock_quizAnswer3_MouseDown" Foreground="Red" MouseEnter="TextBlock_quizAnswer3_MouseEnter" MouseLeave="TextBlock_quizAnswer3_MouseLeave"/>
+            <TextBlock x:Name="textBlock_quizAnswer2" HorizontalAlignment="Left" Margin="590,444,0,0" TextWrapping="Wrap" Text="quizAnswer2" VerticalAlignment="Top" RenderTransformOrigin="0.889,3.438" Visibility="Hidden" FontSize="24" FontFamily="Segoe UI Semibold" MouseDown="TextBlock_quizAnswer2_MouseDown" Foreground="Red" MouseEnter="TextBlock_quizAnswer2_MouseEnter" MouseLeave="TextBlock_quizAnswer2_MouseLeave"/>
+            <TextBlock x:Name="textBlock_quizAnswer1" HorizontalAlignment="Left" Margin="590,397,0,0" TextWrapping="Wrap" Text="quizAnswer1" VerticalAlignment="Top" RenderTransformOrigin="0.69,3.446" Visibility="Hidden" FontSize="24" FontFamily="Segoe UI Semibold" MouseDown="TextBlock_quizAnswer1_MouseDown" TextDecorations="{x:Null}" Foreground="Red" MouseEnter="TextBlock_quizAnswer1_MouseEnter" MouseLeave="TextBlock_quizAnswer1_MouseLeave"/>
+            <TextBlock x:Name="textBlock_quizAnswerNumber1" HorizontalAlignment="Left" Margin="550,397,0,0" TextWrapping="Wrap" Text="A)" VerticalAlignment="Top" FontSize="24" Width="25" FontFamily="Segoe UI Semibold" Visibility="Hidden" Foreground="RoyalBlue"/>
+            <TextBlock x:Name="textBlock_quizAnswerNumber2" HorizontalAlignment="Left" Margin="550,444,0,0" TextWrapping="Wrap" Text="B)" VerticalAlignment="Top" FontSize="24" Width="25" FontFamily="Segoe UI Semibold" Visibility="Hidden" Foreground="RoyalBlue"/>
+            <TextBlock x:Name="textBlock_quizAnswerNumber3" HorizontalAlignment="Left" Margin="550,491,0,0" TextWrapping="Wrap" Text="C)" VerticalAlignment="Top" FontSize="24" Width="25" FontFamily="Segoe UI Semibold" RenderTransformOrigin="0.4,1.906" Visibility="Hidden" Foreground="RoyalBlue"/>
+            <TextBlock x:Name="textBlock_quizAnswerNumber4" HorizontalAlignment="Left" Margin="550,538,0,0" TextWrapping="Wrap" Text="D)" VerticalAlignment="Top" FontSize="24" Width="35" FontFamily="Segoe UI Semibold" RenderTransformOrigin="0.4,1.906" Visibility="Hidden" Foreground="RoyalBlue"/>
+            <TextBlock x:Name="textBlock_quizAnswerResult" HorizontalAlignment="Left" Margin="550,600,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="18" Visibility="Hidden"/>
+            <TextBlock x:Name="textBlock_correctAnswer" HorizontalAlignment="Left" Margin="550,600,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Visibility="Hidden"/>
+            <TextBlock x:Name="textBlock_showNextQuestion" HorizontalAlignment="Left" Margin="550,630,0,0" TextWrapping="Wrap" Text="Toon volgende vlag" VerticalAlignment="Top" TextDecorations="{x:Null}" FontSize="18" Visibility="Hidden" Foreground="Red" MouseDown="TextBlock_showNextQuestion_MouseDown" MouseEnter="TextBlock_showNextQuestion_MouseEnter" MouseLeave="TextBlock_showNextQuestion_MouseLeave" FontWeight="Bold"/>
+            <TextBlock x:Name="textBlock_playAgainYes" HorizontalAlignment="Left" TextAlignment="Center" Margin="550,685,0,0" TextWrapping="Wrap" Text="Ja" VerticalAlignment="Top" FontWeight="Bold" Visibility="Hidden" FontSize="18" Background="Silver" Foreground="White" Padding="5" Width="60" MouseDown="TextBlock_playAgainYes_MouseDown" MouseEnter="TextBlock_playAgainYes_MouseEnter" MouseLeave="TextBlock_playAgainYes_MouseLeave"/>
+            <TextBlock x:Name="textBlock_playAgainNo" HorizontalAlignment="Left" TextAlignment="Center" Margin="630,685,0,0" TextWrapping="Wrap" Text="Nee" VerticalAlignment="Top" Visibility="Hidden" FontSize="18" FontWeight="Bold" Background="Silver" Foreground="White" Padding="5" Width="60" MouseDown="TextBlock_playAgainNo_MouseDown" MouseEnter="TextBlock_playAgainNo_MouseEnter" MouseLeave="TextBlock_playAgainNo_MouseLeave"/>
+            <Button x:Name="button_startNewQuiz" Content="Start nieuwe quiz" HorizontalAlignment="Left" Margin="975,50,0,0" VerticalAlignment="Top" Width="120" Foreground="DimGray" Visibility="Hidden" Height="34" Padding="3" BorderBrush="Lavender" Click="Button_startNewQuiz_Click" Background="Gainsboro"/>
+            <Button x:Name="button_startViewingFlags" Content="Vlaggen bekijken" HorizontalAlignment="Left" Margin="1120,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.156,-0.964" Background="Gainsboro" Foreground="DimGray" Visibility="Hidden" Height="34" Width="120" BorderBrush="Lavender" Click="Button_startViewingFlags_Click"/>
+        </Grid>
+    </ScrollViewer>
+</Window>

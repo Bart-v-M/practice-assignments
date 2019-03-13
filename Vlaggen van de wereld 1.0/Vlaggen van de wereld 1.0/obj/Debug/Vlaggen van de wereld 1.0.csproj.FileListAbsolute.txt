@@ -1,0 +1,23 @@
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\bin\Debug\Vlaggen van de wereld 1.0.exe.config
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\bin\Debug\Vlaggen van de wereld 1.0.exe
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\bin\Debug\Vlaggen van de wereld 1.0.pdb
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen van de wereld 1.0.csprojAssemblyReference.cache
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\MainWindow.g.cs
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\App.g.cs
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen van de wereld 1.0_MarkupCompile.cache
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen van de wereld 1.0_MarkupCompile.lref
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\MainWindow.baml
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen van de wereld 1.0.g.resources
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen_van_de_wereld_1._0.Properties.Resources.resources
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen van de wereld 1.0.csproj.GenerateResource.cache
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen van de wereld 1.0.csproj.CoreCompileInputs.cache
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen van de wereld 1.0.exe
+Z:\OneDrive\Documenten\Programs\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen van de wereld 1.0.pdb
+Z:\Desktop\practice-assignments\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen van de wereld 1.0.csprojAssemblyReference.cache
+Z:\Desktop\practice-assignments\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\MainWindow.g.cs
+Z:\Desktop\practice-assignments\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\App.g.cs
+Z:\Desktop\practice-assignments\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen van de wereld 1.0_MarkupCompile.cache
+Z:\Desktop\practice-assignments\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen van de wereld 1.0_MarkupCompile.lref
+Z:\Desktop\practice-assignments\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\MainWindow.baml
+Z:\Desktop\practice-assignments\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen van de wereld 1.0.g.resources
+Z:\Desktop\practice-assignments\Vlaggen van de wereld 1.0\Vlaggen van de wereld 1.0\obj\Debug\Vlaggen van de wereld 1.0.pdb
