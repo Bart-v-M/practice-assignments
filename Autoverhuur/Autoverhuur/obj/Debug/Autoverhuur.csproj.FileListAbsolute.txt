@@ -1,0 +1,10 @@
+Z:\OneDrive\Documenten\Programs\Autoverhuur\Autoverhuur\bin\Debug\Autoverhuur.exe.config
+Z:\OneDrive\Documenten\Programs\Autoverhuur\Autoverhuur\bin\Debug\Autoverhuur.exe
+Z:\OneDrive\Documenten\Programs\Autoverhuur\Autoverhuur\bin\Debug\Autoverhuur.pdb
+Z:\OneDrive\Documenten\Programs\Autoverhuur\Autoverhuur\obj\Debug\Autoverhuur.csprojAssemblyReference.cache
+Z:\OneDrive\Documenten\Programs\Autoverhuur\Autoverhuur\obj\Debug\Autoverhuur.Form1.resources
+Z:\OneDrive\Documenten\Programs\Autoverhuur\Autoverhuur\obj\Debug\Autoverhuur.Properties.Resources.resources
+Z:\OneDrive\Documenten\Programs\Autoverhuur\Autoverhuur\obj\Debug\Autoverhuur.csproj.GenerateResource.cache
+Z:\OneDrive\Documenten\Programs\Autoverhuur\Autoverhuur\obj\Debug\Autoverhuur.csproj.CoreCompileInputs.cache
+Z:\OneDrive\Documenten\Programs\Autoverhuur\Autoverhuur\obj\Debug\Autoverhuur.exe
+Z:\OneDrive\Documenten\Programs\Autoverhuur\Autoverhuur\obj\Debug\Autoverhuur.pdb
