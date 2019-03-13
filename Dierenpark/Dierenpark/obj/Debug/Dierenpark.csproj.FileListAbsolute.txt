@@ -1,0 +1,10 @@
+Z:\OneDrive\Documenten\Programs\Dierenpark\Dierenpark\bin\Debug\Dierenpark.exe.config
+Z:\OneDrive\Documenten\Programs\Dierenpark\Dierenpark\bin\Debug\Dierenpark.exe
+Z:\OneDrive\Documenten\Programs\Dierenpark\Dierenpark\bin\Debug\Dierenpark.pdb
+Z:\OneDrive\Documenten\Programs\Dierenpark\Dierenpark\obj\Debug\Dierenpark.csprojAssemblyReference.cache
+Z:\OneDrive\Documenten\Programs\Dierenpark\Dierenpark\obj\Debug\Dierenpark.Form1.resources
+Z:\OneDrive\Documenten\Programs\Dierenpark\Dierenpark\obj\Debug\Dierenpark.Properties.Resources.resources
+Z:\OneDrive\Documenten\Programs\Dierenpark\Dierenpark\obj\Debug\Dierenpark.csproj.GenerateResource.cache
+Z:\OneDrive\Documenten\Programs\Dierenpark\Dierenpark\obj\Debug\Dierenpark.csproj.CoreCompileInputs.cache
+Z:\OneDrive\Documenten\Programs\Dierenpark\Dierenpark\obj\Debug\Dierenpark.exe
+Z:\OneDrive\Documenten\Programs\Dierenpark\Dierenpark\obj\Debug\Dierenpark.pdb
