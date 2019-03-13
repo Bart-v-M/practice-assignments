@@ -1,0 +1,15 @@
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\bin\Debug\MyMorseCodeTranslator.exe.config
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\bin\Debug\MyMorseCodeTranslator.exe
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\bin\Debug\MyMorseCodeTranslator.pdb
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\obj\Debug\MyMorseCodeTranslator.csprojAssemblyReference.cache
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\obj\Debug\MainWindow.g.cs
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\obj\Debug\App.g.cs
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\obj\Debug\MyMorseCodeTranslator_MarkupCompile.cache
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\obj\Debug\MyMorseCodeTranslator_MarkupCompile.lref
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\obj\Debug\MainWindow.baml
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\obj\Debug\MyMorseCodeTranslator.g.resources
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\obj\Debug\MyMorseCodeTranslator.Properties.Resources.resources
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\obj\Debug\MyMorseCodeTranslator.csproj.GenerateResource.cache
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\obj\Debug\MyMorseCodeTranslator.csproj.CoreCompileInputs.cache
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\obj\Debug\MyMorseCodeTranslator.exe
+Z:\OneDrive\Documenten\Programs\MyMorseCodeTranslator\MyMorseCodeTranslator\obj\Debug\MyMorseCodeTranslator.pdb
