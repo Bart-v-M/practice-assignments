@@ -1,0 +1,10 @@
+Z:\OneDrive\Documenten\Programs\Transportbedrijf\Transportbedrijf\bin\Debug\Transportbedrijf.exe.config
+Z:\OneDrive\Documenten\Programs\Transportbedrijf\Transportbedrijf\bin\Debug\Transportbedrijf.exe
+Z:\OneDrive\Documenten\Programs\Transportbedrijf\Transportbedrijf\bin\Debug\Transportbedrijf.pdb
+Z:\OneDrive\Documenten\Programs\Transportbedrijf\Transportbedrijf\obj\Debug\Transportbedrijf.csprojAssemblyReference.cache
+Z:\OneDrive\Documenten\Programs\Transportbedrijf\Transportbedrijf\obj\Debug\Transportbedrijf.inputForm.resources
+Z:\OneDrive\Documenten\Programs\Transportbedrijf\Transportbedrijf\obj\Debug\Transportbedrijf.Properties.Resources.resources
+Z:\OneDrive\Documenten\Programs\Transportbedrijf\Transportbedrijf\obj\Debug\Transportbedrijf.csproj.GenerateResource.cache
+Z:\OneDrive\Documenten\Programs\Transportbedrijf\Transportbedrijf\obj\Debug\Transportbedrijf.csproj.CoreCompileInputs.cache
+Z:\OneDrive\Documenten\Programs\Transportbedrijf\Transportbedrijf\obj\Debug\Transportbedrijf.exe
+Z:\OneDrive\Documenten\Programs\Transportbedrijf\Transportbedrijf\obj\Debug\Transportbedrijf.pdb
