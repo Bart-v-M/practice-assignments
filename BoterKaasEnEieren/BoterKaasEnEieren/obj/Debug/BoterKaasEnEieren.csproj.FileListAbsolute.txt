@@ -1,0 +1,15 @@
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\bin\Debug\BoterKaasEnEieren.exe.config
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\bin\Debug\BoterKaasEnEieren.exe
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\bin\Debug\BoterKaasEnEieren.pdb
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\obj\Debug\BoterKaasEnEieren.csprojAssemblyReference.cache
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\obj\Debug\MainWindow.g.cs
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\obj\Debug\App.g.cs
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\obj\Debug\BoterKaasEnEieren_MarkupCompile.cache
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\obj\Debug\BoterKaasEnEieren_MarkupCompile.lref
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\obj\Debug\MainWindow.baml
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\obj\Debug\BoterKaasEnEieren.g.resources
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\obj\Debug\BoterKaasEnEieren.Properties.Resources.resources
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\obj\Debug\BoterKaasEnEieren.csproj.GenerateResource.cache
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\obj\Debug\BoterKaasEnEieren.csproj.CoreCompileInputs.cache
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\obj\Debug\BoterKaasEnEieren.exe
+Z:\OneDrive\Documenten\Programs\BoterKaasEnEieren\BoterKaasEnEieren\obj\Debug\BoterKaasEnEieren.pdb
