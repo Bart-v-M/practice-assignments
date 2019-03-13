@@ -1,0 +1,20 @@
+/Users/bart/OneDrive/Documenten/Programs/Ouderbijdrage school/Ouderbijdrage school/bin/Debug/Ouderbijdrage school.exe.config
+/Users/bart/OneDrive/Documenten/Programs/Ouderbijdrage school/Ouderbijdrage school/bin/Debug/Ouderbijdrage school.exe
+/Users/bart/OneDrive/Documenten/Programs/Ouderbijdrage school/Ouderbijdrage school/bin/Debug/Ouderbijdrage school.pdb
+/Users/bart/OneDrive/Documenten/Programs/Ouderbijdrage school/Ouderbijdrage school/obj/Debug/Ouderbijdrage school.csprojAssemblyReference.cache
+/Users/bart/OneDrive/Documenten/Programs/Ouderbijdrage school/Ouderbijdrage school/obj/Debug/Ouderbijdrage_school.Form1.resources
+/Users/bart/OneDrive/Documenten/Programs/Ouderbijdrage school/Ouderbijdrage school/obj/Debug/Ouderbijdrage_school.Properties.Resources.resources
+/Users/bart/OneDrive/Documenten/Programs/Ouderbijdrage school/Ouderbijdrage school/obj/Debug/Ouderbijdrage school.csproj.GenerateResource.cache
+/Users/bart/OneDrive/Documenten/Programs/Ouderbijdrage school/Ouderbijdrage school/obj/Debug/Ouderbijdrage school.csproj.CoreCompileInputs.cache
+/Users/bart/OneDrive/Documenten/Programs/Ouderbijdrage school/Ouderbijdrage school/obj/Debug/Ouderbijdrage school.exe
+/Users/bart/OneDrive/Documenten/Programs/Ouderbijdrage school/Ouderbijdrage school/obj/Debug/Ouderbijdrage school.pdb
+Z:\OneDrive\Documenten\Programs\Ouderbijdrage school\Ouderbijdrage school\obj\Debug\Ouderbijdrage school.csprojAssemblyReference.cache
+Z:\OneDrive\Documenten\Programs\Ouderbijdrage school\Ouderbijdrage school\obj\Debug\Ouderbijdrage_school.Properties.Resources.resources
+Z:\OneDrive\Documenten\Programs\Ouderbijdrage school\Ouderbijdrage school\obj\Debug\Ouderbijdrage school.csproj.GenerateResource.cache
+Z:\OneDrive\Documenten\Programs\Ouderbijdrage school\Ouderbijdrage school\obj\Debug\Ouderbijdrage school.csproj.CoreCompileInputs.cache
+Z:\OneDrive\Documenten\Programs\Ouderbijdrage school\Ouderbijdrage school\obj\Debug\Ouderbijdrage school.exe
+Z:\OneDrive\Documenten\Programs\Ouderbijdrage school\Ouderbijdrage school\obj\Debug\Ouderbijdrage school.pdb
+Z:\OneDrive\Documenten\Programs\Ouderbijdrage school\Ouderbijdrage school\bin\Debug\Ouderbijdrage school.exe.config
+Z:\OneDrive\Documenten\Programs\Ouderbijdrage school\Ouderbijdrage school\bin\Debug\Ouderbijdrage school.exe
+Z:\OneDrive\Documenten\Programs\Ouderbijdrage school\Ouderbijdrage school\bin\Debug\Ouderbijdrage school.pdb
+Z:\OneDrive\Documenten\Programs\Ouderbijdrage school\Ouderbijdrage school\obj\Debug\Ouderbijdrage_school.Form1.resources
