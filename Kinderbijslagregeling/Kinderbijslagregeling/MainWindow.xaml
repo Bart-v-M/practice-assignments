@@ -1,0 +1,73 @@
+﻿<Window x:Class="Kinderbijslagregeling.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kinderbijslagregeling"
+        mc:Ignorable="d"
+        Title="Kinderbijslagcalculator" Height="830" Width="650" ResizeMode="NoResize" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF91BDE9">
+        <Label x:Name="label_header" Content="Bereken kinderbijslag" HorizontalAlignment="Left" Margin="50,30,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="label_numOfChildrenForCalculation" Content="Voor een gezin van welk aantal kinderen (onder de 18 jaar) &#xA;wilt u kinderbijslag berekenen?" HorizontalAlignment="Left" Margin="50,130,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.577" FontFamily="Segoe UI Semibold" Height="45" Width="435"/>
+        <ComboBox x:Name="comboBox_selectNumOfChildren" Text="Kies het aantal" HorizontalAlignment="Left" Margin="450,147,0,0" VerticalAlignment="Top" Width="120" IsEditable="True" IsReadOnly="True" SelectionChanged="ComboBox_selectNumOfChildren_SelectionChanged">
+            <ComboBoxItem x:Name="NumOfChildrenNoSelection"/>
+            <ComboBoxItem x:Name="NumOfChildren01" Content="1"/>
+            <ComboBoxItem x:Name="NumOfChildren02" Content="2"/>
+            <ComboBoxItem x:Name="NumOfChildren03" Content="3"/>
+            <ComboBoxItem x:Name="NumOfChildren04" Content="4"/>
+            <ComboBoxItem x:Name="NumOfChildren05" Content="5"/>
+            <ComboBoxItem x:Name="NumOfChildren06" Content="6"/>
+            <ComboBoxItem x:Name="NumOfChildren07" Content="7"/>
+            <ComboBoxItem x:Name="NumOfChildren08" Content="8"/>
+            <ComboBoxItem x:Name="NumOfChildren09" Content="9"/>
+            <ComboBoxItem x:Name="NumOfChildren10" Content="10"/>
+        </ComboBox>
+        <Label x:Name="label_birthdateChild01" Content="Geboortedatum kind" HorizontalAlignment="Left" Margin="50,200,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold"/>
+        <Label x:Name="label_birthdateChild02" Content="Geboortedatum kind 2" HorizontalAlignment="Left" Margin="50,228,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold"/>
+        <Label x:Name="label_birthdateChild03" Content="Geboortedatum kind 3" HorizontalAlignment="Left" Margin="50,256,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.46,2.115" FontFamily="Segoe UI Semibold"/>
+        <Label x:Name="label_birthdateChild04" Content="Geboortedatum kind 4" HorizontalAlignment="Left" Margin="50,284,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.46,2.115" FontFamily="Segoe UI Semibold"/>
+        <Label x:Name="label_birthdateChild05" Content="Geboortedatum kind 5" HorizontalAlignment="Left" Margin="50,312,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.46,2.115" FontFamily="Segoe UI Semibold"/>
+        <Label x:Name="label_birthdateChild06" Content="Geboortedatum kind 6" HorizontalAlignment="Left" Margin="50,340,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.46,2.115" FontFamily="Segoe UI Semibold"/>
+        <Label x:Name="label_birthdateChild07" Content="Geboortedatum kind 7" HorizontalAlignment="Left" Margin="50,368,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.46,2.115" FontFamily="Segoe UI Semibold"/>
+        <Label x:Name="label_birthdateChild08" Content="Geboortedatum kind 8" HorizontalAlignment="Left" Margin="50,396,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.46,2.115" FontFamily="Segoe UI Semibold"/>
+        <Label x:Name="label_birthdateChild09" Content="Geboortedatum kind 9" HorizontalAlignment="Left" Margin="50,424,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.46,2.115" FontFamily="Segoe UI Semibold"/>
+        <Label x:Name="label_birthdateChild10" Content="Geboortedatum kind 10" HorizontalAlignment="Left" Margin="50,452,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.46,2.115" FontFamily="Segoe UI Semibold"/>
+        <Label x:Name="label_ChildAllowanceToBeReceivedInYearX" Content="Te ontvangen kinderbijslag in 2019 voor x kinderen:" HorizontalAlignment="Left" Margin="50,562,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,-0.577" FontWeight="Bold"/>
+        <Label x:Name="label_1stQuarter" Content="Eerste kwartaal" HorizontalAlignment="Left" Margin="50,595,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,-0.577" FontFamily="Segoe UI Semibold" Width="200"/>
+        <Label x:Name="label_2ndQuarter" Content="Tweede kwartaal" HorizontalAlignment="Left" Margin="50,620,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,-0.577" FontFamily="Segoe UI Semibold" Width="200"/>
+        <Label x:Name="label_3rdQuarter" Content="Derde kwartaal" HorizontalAlignment="Left" Margin="50,645,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,-0.577" FontFamily="Segoe UI Semibold" Width="200"/>
+        <Label x:Name="label_4thQuarter" Content="Vierde kwartaal" HorizontalAlignment="Left" Margin="50,670,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,-0.577" FontFamily="Segoe UI Semibold" Width="200"/>
+        <Label x:Name="label_yearTotalChildAllowance" Content="Totaal" HorizontalAlignment="Left" Margin="50,703,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,-0.577" Width="200" FontWeight="Bold"/>
+        <Label x:Name="label_allowanceInEuros1stQuarter" Content="-" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="283,596,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,-0.577" FontFamily="Segoe UI Semibold" Width="70"/>
+        <Label x:Name="label_allowanceInEuros2ndQuarter" Content="-" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="283,620,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,-0.577" FontFamily="Segoe UI Semibold" Width="70"/>
+        <Label x:Name="label_allowanceInEuros3rdQuarter" Content="-" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="283,645,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,-0.577" FontFamily="Segoe UI Semibold" Width="70"/>
+        <Label x:Name="label_allowanceInEuros4thQuarter" Content="-" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="283,670,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,-0.577" FontFamily="Segoe UI Semibold" Width="70"/>
+        <Label x:Name="label_allowanceInEurosYearTotal" Content="-" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="283,703,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,-0.577" Width="70" FontWeight="Bold"/>
+        <Label x:Name="label_calendarYearForCalculation" Content="Voor welk jaar wilt u een berekening maken?" HorizontalAlignment="Left" Margin="50,80,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,-0.577" FontFamily="Segoe UI Semibold" Height="35" Width="435"/>
+        <ComboBox x:Name="comboBox_selectCalendarYear" Text="Kies het jaar" HorizontalAlignment="Left" Margin="450,80,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_selectCalendarYear_SelectionChanged" IsEditable="True" IsReadOnly="True">
+            <ComboBoxItem x:Name="currentYearMinusNoSelection"/>
+            <ComboBoxItem x:Name="currentYearMinus0" Content="2019"/>
+            <ComboBoxItem x:Name="currentYearMinus1" Content="2018"/>
+            <ComboBoxItem x:Name="currentYearMinus2" Content="2017"/>
+            <ComboBoxItem x:Name="currentYearMinus3" Content="2016"/>
+            <ComboBoxItem x:Name="currentYearMinus4" Content="2015"/>
+        </ComboBox>
+        <Button x:Name="button_calculate" Content="Bereken" HorizontalAlignment="Left" Margin="506,533,0,0" VerticalAlignment="Top" Width="64" Background="#FFE6B2A0" Foreground="White" Click="Button_calculate_Click" Height="25"/>
+        <Label x:Name="label_calculateButton" Content="Bereken" HorizontalAlignment="Left" Margin="506,531,0,0" VerticalAlignment="Top" Width="64" Height="28" HorizontalContentAlignment="Center" Foreground="White" Background="Salmon" BorderBrush="DimGray" MouseDown="Label_calculateButton_MouseDown" FontFamily="Segoe UI Semibold"/>
+        <Label x:Name="label_explanationCalculateButton" Content="De Bereken-knop wordt automatisch actief nadat u alle vragen hebt beantwoord." 
+               HorizontalAlignment="Left" Margin="50,533,0,0" VerticalAlignment="Top" Width="370" FontSize="10"/>
+        <TextBox x:Name="textBox_birthdateChild01" HorizontalAlignment="Left" Height="16" Margin="225,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="10" TextChanged="TextBox_birthdateChild01_TextChanged"/>
+        <TextBox x:Name="textBox_birthdateChild02" HorizontalAlignment="Left" Height="16" Margin="225,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="10" TextChanged="TextBox_birthdateChild02_TextChanged"/>
+        <TextBox x:Name="textBox_birthdateChild03" HorizontalAlignment="Left" Height="16" Margin="225,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="10" TextChanged="TextBox_birthdateChild03_TextChanged"/>
+        <TextBox x:Name="textBox_birthdateChild04" HorizontalAlignment="Left" Height="16" Margin="225,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="10" TextChanged="TextBox_birthdateChild04_TextChanged"/>
+        <TextBox x:Name="textBox_birthdateChild05" HorizontalAlignment="Left" Height="16" Margin="225,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="10" TextChanged="TextBox_birthdateChild05_TextChanged"/>
+        <TextBox x:Name="textBox_birthdateChild06" HorizontalAlignment="Left" Height="16" Margin="225,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="10" TextChanged="TextBox_birthdateChild06_TextChanged"/>
+        <TextBox x:Name="textBox_birthdateChild07" HorizontalAlignment="Left" Height="16" Margin="225,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="10" TextChanged="TextBox_birthdateChild07_TextChanged"/>
+        <TextBox x:Name="textBox_birthdateChild08" HorizontalAlignment="Left" Height="16" Margin="225,402,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="10" TextChanged="TextBox_birthdateChild08_TextChanged"/>
+        <TextBox x:Name="textBox_birthdateChild09" HorizontalAlignment="Left" Height="16" Margin="225,430,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="10" TextChanged="TextBox_birthdateChild09_TextChanged"/>
+        <TextBox x:Name="textBox_birthdateChild10" HorizontalAlignment="Left" Height="16" Margin="225,458,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="10" TextChanged="TextBox_birthdateChild10_TextChanged"/>
+        <Label x:Name="label_whiteLine" Content="Label" HorizontalAlignment="Left" Margin="0,506,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.132,-0.192" Height="3" Width="644" Background="White"/>
+        <Button x:Name="button_newCalculation" Content="Maak nieuwe berekening" HorizontalAlignment="Right" Margin="0,732,74,0" VerticalAlignment="Top" Width="160" Background="#FFE6B2A0" Foreground="White" RenderTransformOrigin="-3.062,12.1" Height="25" Click="Button_newCalculation_Click"/>
+        <Label x:Name="label_newCalculationButton" Content="Maak nieuwe berekening" HorizontalContentAlignment="Center" HorizontalAlignment="Right" Margin="0,730,74,0" VerticalAlignment="Top" Width="160" Foreground="White" Background="Salmon" MouseDown="Label_newCalculationButton_MouseDown" Height="28" FontFamily="Segoe UI Semibold"/>
+    </Grid>
+</Window>

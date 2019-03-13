@@ -1,0 +1,15 @@
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\bin\Debug\Kinderbijslagregeling.exe.config
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\bin\Debug\Kinderbijslagregeling.exe
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\bin\Debug\Kinderbijslagregeling.pdb
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\obj\Debug\Kinderbijslagregeling.csprojAssemblyReference.cache
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\obj\Debug\MainWindow.g.cs
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\obj\Debug\App.g.cs
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\obj\Debug\Kinderbijslagregeling_MarkupCompile.cache
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\obj\Debug\Kinderbijslagregeling_MarkupCompile.lref
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\obj\Debug\MainWindow.baml
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\obj\Debug\Kinderbijslagregeling.g.resources
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\obj\Debug\Kinderbijslagregeling.Properties.Resources.resources
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\obj\Debug\Kinderbijslagregeling.csproj.GenerateResource.cache
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\obj\Debug\Kinderbijslagregeling.csproj.CoreCompileInputs.cache
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\obj\Debug\Kinderbijslagregeling.exe
+Z:\OneDrive\Documenten\Programs\Kinderbijslagregeling\Kinderbijslagregeling\obj\Debug\Kinderbijslagregeling.pdb
