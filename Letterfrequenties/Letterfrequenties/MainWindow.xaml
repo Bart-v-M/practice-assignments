@@ -1,0 +1,57 @@
+﻿<Window x:Name="Letterfrequentieteller" x:Class="Letterfrequenties.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Letterfrequenties"
+        mc:Ignorable="d"
+        Title="Letterfrequentieteller" Height="450" Width="800" Background="#FFFFDADA">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="120"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button_importTextFile" Content="Importeer txt-bestand" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Width="140" Click="Button_importTextFile_Click" RenderTransformOrigin="0.533,-0.75" Grid.Row="1" Height="22" Grid.Column="2" HorizontalContentAlignment="Left" Padding="6,1" Background="Red" Foreground="White" BorderBrush="LightGray" FontWeight="Bold"/>
+        <TextBox x:Name="textBox1" Margin="0" TextWrapping="Wrap" TextChanged="TextBox1_TextChanged"
+                 AcceptsReturn="True" Grid.Column="3" Grid.Row="1" BorderThickness="1" Padding="5" Text="Voer hier uw tekst in of importeer een txt-bestand" GotMouseCapture="TextBox1_GotMouseCapture" LostFocus="TextBox1_LostFocus" Foreground="DimGray"/>
+        <Button x:Name="button_countLetterFrequency" Content="Tel letterfrequentie" HorizontalAlignment="Left" Margin="0,140,0,0" VerticalAlignment="Top" Width="140" Click="Button_countLetterFrequency_Click" Grid.Row="1" Height="22" Grid.Column="2" Padding="6,1" HorizontalContentAlignment="Left" Background="Red" BorderBrush="LightGray" Foreground="White" FontWeight="Bold"/>
+        <ComboBox Grid.Column="2" HorizontalAlignment="Left" Margin="0,62,0,0" Grid.Row="1" Width="100" Padding="8,3,5,3" VerticalAlignment="Top" RenderTransformOrigin="1,0.591" SelectedIndex="0">
+            <ComboBoxItem Name="None" Content=""/>
+            <ComboBoxItem Name="a" Content="A"/>
+            <ComboBoxItem Name="b" Content="B"/>
+            <ComboBoxItem Name="c" Content="C"/>
+            <ComboBoxItem Name="d" Content="D"/>
+            <ComboBoxItem Name="e" Content="E"/>
+            <ComboBoxItem Name="f" Content="F"/>
+            <ComboBoxItem Name="g" Content="G"/>
+            <ComboBoxItem Name="h" Content="H"/>
+            <ComboBoxItem Name="i" Content="I"/>
+            <ComboBoxItem Name="j" Content="J"/>
+            <ComboBoxItem Name="k" Content="K"/>
+            <ComboBoxItem Name="l" Content="L"/>
+            <ComboBoxItem Name="m" Content="M"/>
+            <ComboBoxItem Name="n" Content="N"/>
+            <ComboBoxItem Name="o" Content="O"/>
+            <ComboBoxItem Name="p" Content="P"/>
+            <ComboBoxItem Name="q" Content="Q"/>
+            <ComboBoxItem Name="r" Content="R"/>
+            <ComboBoxItem Name="s" Content="S"/>
+            <ComboBoxItem Name="t" Content="T"/>
+            <ComboBoxItem Name="u" Content="U"/>
+            <ComboBoxItem Name="v" Content="V"/>
+            <ComboBoxItem Name="w" Content="W"/>
+            <ComboBoxItem Name="x" Content="X"/>
+            <ComboBoxItem Name="y" Content="Y"/>
+            <ComboBoxItem Name="z" Content="Z"/>
+        </ComboBox>
+        <TextBox Grid.Column="2" HorizontalAlignment="Left" Height="22" Margin="0,40,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Kies een letter..." VerticalAlignment="Top" Width="110" Padding="4,0" BorderBrush="#FFFFDADA" Background="#FFFFDADA" Foreground="DimGray" FontWeight="Bold"/>
+    </Grid>
+</Window>
