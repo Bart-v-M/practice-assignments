@@ -101,10 +101,7 @@ namespace Letterfrequenties
             if (openFileDialog1.ShowDialog() == true)
             {
                 StreamReader reader = new StreamReader(openFileDialog1.FileName);
-                text = reader.ReadLine();
-                textBox1.Text = text.ToString();
-
-                reader.Close();
+                textBox1.Text = File.ReadAllText(openFileDialog1.FileName);
             }
         }
 
